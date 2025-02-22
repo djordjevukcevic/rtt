@@ -1,4 +1,3 @@
-
   ADD_LIBRARY(service_plugin SHARED plugins_test_services.cpp)
 
   # Allows us to build the plugin not in the debug/ or release/ subdir

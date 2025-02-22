@@ -1,4 +1,3 @@
-
 #include <rtt/types/Types.hpp>
 #include <rtt/types/TypekitPlugin.hpp>
 #include "types/SequenceTypeInfo.hpp"
