@@ -1,3 +1,4 @@
+```cpp
 //  (C) Copyright Gennadiy Rozental 2001-2008.
 //  Distributed under the Boost Software License, Version 1.0.
 //  (See accompanying file LICENSE_1_0.txt or copy at 
@@ -241,4 +242,4 @@ init_unit_test_suite( int, char* [] )   {
 //____________________________________________________________________________//
 
 #endif // BOOST_TEST_UNIT_TEST_SUITE_HPP_071894GER
-
+```

@@ -32,7 +32,7 @@ find_path(XERCES_INCLUDE_DIR       NAMES xercesc/dom/DOM.hpp ${XERCES_INCLUDE_PA
 find_library(XERCES_C_LIBRARY      NAMES xerces-c            ${XERCES_LIBRARY_PATH})
 
 # Set Xerces_FOUND honoring the QUIET and REQUIRED arguments
-find_package_handle_standard_args(Xerces DEFAULT_MSG XERCES_C_LIBRARY XERCES_INCLUDE_DIR)
+find_package_handle_standard_args(XercesC DEFAULT_MSG XERCES_C_LIBRARY XERCES_INCLUDE_DIR)
 
 # Output variables
 if(XERCES_FOUND)

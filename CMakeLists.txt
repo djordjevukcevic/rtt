@@ -1,7 +1,7 @@
 #
 # Test CMake version
 #
-CMAKE_MINIMUM_REQUIRED(VERSION 2.6.0)
+CMAKE_MINIMUM_REQUIRED(VERSION 3.13)
 
 # for CMake 2.6 corrected behaviour (see "cmake --help-policy CMP0003")
 IF(POLICY CMP0003)

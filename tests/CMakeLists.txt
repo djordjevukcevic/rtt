@@ -1,4 +1,3 @@
-
 Include(AddUnitTest.cmake)
 
 IF (BUILD_TESTING)

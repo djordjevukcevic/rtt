@@ -54,7 +54,7 @@ OPTION(ORO_NO_EMIT_CORBA_IOR "Do not emit CORBA IORs if name service not used" O
 
 # Look for boost We look up all components in one place because this macro does
 # not support multiple invocations in some CMake versions.
-find_package(Boost 1.38 COMPONENTS filesystem system unit_test_framework thread serialization)
+find_package(Boost 1.70 COMPONENTS filesystem system unit_test_framework thread serialization)
 
 # Look for boost
 if ( PLUGINS_ENABLE )
@@ -91,7 +91,7 @@ find_library(LINUX_CAP_NG_LIBRARY cap-ng)
 OPTION(OROBLD_FORCE_TINY_DEMARSHALLER "Force usage of TinyDemarshaller." OFF)
 
 IF (NOT OROBLD_FORCE_TINY_DEMARSHALLER)
-  find_package(Xerces)
+  find_package(XercesC 3.2)
 ENDIF (NOT OROBLD_FORCE_TINY_DEMARSHALLER)
 
 # Look for Boost Uuid or libuuid
